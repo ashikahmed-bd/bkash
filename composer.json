@@ -1,0 +1,15 @@
+{
+    "name": "ashik/bkash",
+    "autoload": {
+        "psr-4": {
+            "Ashik\\Bkash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashik Ahmed",
+            "email": "ashikahmed0906@gmail.com"
+        }
+    ],
+    "require": {}
+}

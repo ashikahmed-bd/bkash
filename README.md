@@ -9,7 +9,7 @@ by [Bkash](https://www.bkash.com/). Use at your own risk. Feel free to contribut
 You can install the package via composer:
 
 ```bash
-composer require polashmahmud/bkash
+composer require ashik/bkash
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ composer require polashmahmud/bkash
 Publish the configuration file using the following command:
 
 ```bash
-php artisan vendor:publish --provider="Polashmahmud\Bkash\BkashServiceProvider"
+php artisan vendor:publish --provider="Ashik\Bkash\BkashServiceProvider"
 ```
 
 This will create a `bkash.php` file in your `config` folder. Here you can set your Bkash credentials. You can also set
@@ -58,7 +58,7 @@ You can set the admin panel access user by setting the `allowed_emails` in your 
 
 ```bash
 'allowed_emails' => [
-  'polashmahmud@gmail.com'
+  'example@gmail.com'
 ],
 ```
 
